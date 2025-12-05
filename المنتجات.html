@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>الطلبات</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="/assests/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+
+</head>
+
+<body>
+<div class="topbar">
+    <img src="/image/f9f831a3dca6f5fbcb89a69383cd9de01ac1e52b (1).png" class="logo" >
+
+    <div class="center-section">
+        <input type="text" placeholder="ابحث..." class="search-box">
+    </div>
+
+    <div class="icons">
+       <label for="showNotifications" class="icon"><i class="fa-regular fa-bell"></i></label>
+
+<input type="checkbox" id="showNotifications" hidden>
+
+<div class="notifications-box">
+    <h3>الإشعارات</h3>
+
+    <div class="item">تم شحن الرصيد– منذ يومين</div>
+    <div class="item">تم شحن الرصيد– منذ ٣ أيام</div>
+    <div class="item">تم شحن الرصيد– منذ ٣ أيام</div>
+    <div class="item">تم شحن الرصيد– منذ ٣ أيام</div>
+
+    <a class="more">عرض الكل</a>
+</div>
+
+        <i class="icon">
+              <a href="متجر الثيمات.html" class="iconss ">
+        <i class="fa-solid fa-gamepad"></i>
+    </a>
+        </i>
+        <i class="icon">  <a href="app.html" class="iconss ac">
+        <i class="fa-solid fa-border-all"></i>
+    </a></i>
+    </a></i>
+      <i class="icon">  <i class="fa-regular fa-moon"></i></i>
+        <i class="icon dark-toggle"></i>
+    </div>
+    <div class="store-wrapper">
+  <div class="store-select" id="storeBtn">
+    <img src="/image/121df8e4ff69af84b6cdf0af74303de3d79c0e0c.jpg">
+    <span class="flo">متجر زهور</span>
+    <span class="arrow">▼</span>
+</div>
+
+
+ <div id="dropdownMenu" class="dropdown-menu">
+    <div class="profile-section">
+        <img src="/image/121df8e4ff69af84b6cdf0af74303de3d79c0e0c.jpg" class="profile-img" />
+        <div class="profile-info">
+            <h3>متجر زهور</h3>
+            <p>الباقة المجانية</p>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button class="visit-btn">زيارة المتجر</button>
+        <button class="settings-btn">الإعدادات ⚙️</button>
+    </div>
+
+    <ul class="menu-list">
+        <li>
+        <a href="باقه المتجر.html"> <i class="fa-solid fa-gem"></i>باقه المنتجات  </li>
+            </a>   <li>
+    <a href="المحفظه.html" class="menu-link">
+        <i class="fa-solid fa-wallet"></i> المحفظة والفواتير
+    </a>
+</li>
+        <li class="logout"><i class="fa-solid fa-right-from-bracket"></i> تسجيل الخروج</li>
+    </ul>
+</div>
+</div>
+</div>
+ <input type="checkbox" id="menuToggle" hidden>
+<label for="menuToggle" class="menu-btn">☰</label>
+
+<aside class="sidebar" id="sidebar">
+    <ul>
+
+        <li class="section-title">عام</li>
+
+        <li class="active">
+            <a href="home.html">
+                <span class="icon"><i class="fa-solid fa-house"></i></span> الرئيسية
+            </a>
+        </li>
+
+        <li class="has-submenu ">
+    <div class="menu-item">
+        <a href="#">
+            <span class="icon"><i class="fa-solid fa-house"></i></span> الطلبات
+        </a>
+        <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+    </div>
+
+    <!-- القائمة اللي هتظهر -->
+    <ul class="submenu">
+        <li><a href="app.html">الطلبات</a></li>
+        <li><a href="القسائم.html">القسائم</a></li>
+    </ul>
+</li>
+
+
+       <li class="has-submenu" class="active">
+    <div class="menu-item">
+      
+            <span class="icon"><i class="fa-solid fa-shop"></i></span> المنتجات
+       
+        <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+    </div>
+
+    <!-- القائمة اللي هتظهر -->
+    <ul class="submenu">
+        <li class="active"> <a href="المنتجات.html">المنتجات</a></li>
+        <li><a href=" القسائم.html">الأقسام</a></li>
+    </ul>
+</li>
+
+        <li>
+            <a href="العملاء.html">
+                <span class="icon"><i class="fa-solid fa-user-group"></i></span> العملاء
+            </a>
+        </li>
+
+        <li>
+            <a href="">
+                <span class="icon"><i class="fa-solid fa-chart-simple"></i></span> التقارير
+            </a>
+        </li>
+
+        <li>
+            <a href="التقيمات.html">
+                <span class="icon"><i class="fa-regular fa-star"></i></span> التقييمات
+            </a>
+        </li>
+
+        <li>
+            <a href="الصفحه التعريفيه.html">
+                <span class="icon"><i class="fa-solid fa-book-open"></i></span> الصفحات التعريفية
+            </a>
+        </li>
+
+        <li class="section-title">أدوات مساعدة</li>
+
+        <li>
+            <a href="خدمات التاجر.html">
+                <span class="icon">🧩</span> خدمات التاجر
+            </a>
+        </li>
+
+        <li>
+            <a href="تفعيل الشحن.html">
+                <span class="icon"><i class="fa-solid fa-ship"></i></span> تفعيل الشحن
+            </a>
+        </li>
+
+        <li>
+            <a href="خدمات الذكاء الصناعي.html">
+                <span class="icon">🤖</span> خدمات الذكاء الاصطناعي
+            </a>
+        </li>
+
+        <li class="section-title">الموردين</li>
+
+        <li>
+            <a href="الموردين.html">
+                <span class="icon">📦</span> المستودعات السعودية
+            </a>
+        </li>
+
+        <li>
+            <a href="المنتجات الرقميه2.html">
+                <span class="icon"><i class="fa-solid fa-computer"></i></span> المنتجات الرقمية
+            </a>
+        </li>
+
+    </ul>
+</aside>
+
+
+<!-- =============== MAIN CONTENT =============== -->
+<main class="content">
+
+    <div class="title-wrapper">
+      <div class="r"> <h2 class="title">المنتجات  </h2>
+        <p>تابع منتجات متجرك</p></div>
+     <a href="اضافه منتج.html" class="new-order-btn">+ منتج جديد</a>
+
+
+    </div>
+<div class="bg">
+    <!-- Filters -->
+    <div class="filter-bar">
+  <div class="left-controls">
+    <button class="btn"><i class="fa-solid fa-clock"></i> تصدير</button>
+
+    <button class="btn"><i class="fa-solid fa-clock"></i> التاريخ الاحدث</button>
+
+
+
+
+  </div>
+
+  <div class="right-search">
+    <div class="search-box">
+       <input type="text" placeholder="ابحث باسم المنتج...">
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<!-- جدول القسائم -->
+<div class="table-box" style="direction: rtl;">
+<!-- ====== GRID المنتجات ====== -->
+<!-- ====== GRID المنتجات ====== -->
+<div class="products-grid">
+
+    <!-- كارت 1 -->
+    <div class="product-card">
+
+    <!-- اسم المنتج + القسم -->
+    <div class="card-header">
+       <img src="/image/25127374cf06688d7588dbd249e022a82295ddc1.png" class="product-img">
+        <div class="title-info">
+            <h3 class="product-title">سماعات بلوتوث AirLite</h3>
+            <p class="category">الكترونيات</p>
+        </div>
+
+
+
+    </div>
+
+    <!-- السعر -->
+    <div class="price">19.900 ر.س</div>
+
+    <!-- الوصف -->
+    <p class="desc">
+        سماعات لاسلكية بجودة صوت عالية، مع عزل للضوضاء وعلبة شحن خفيفة.
+    </p>
+
+    <!-- الكمية والمتبقي -->
+    <div class="stock-row">
+        <span class="stock"><b>الكمية:</b> 150</span>
+        <span class="remaining"><b>المنفذ:</b> 30</span>
+    </div>
+
+    <!-- الأزرار -->
+    <div class="actions">
+        <button class="delete-btn"><i class="fa-solid fa-trash"></i> حذف</button>
+        <button class="edit-btn"><i class="fa-solid fa-pen"></i> تعديل</button>
+    </div>
+
+</div>
+
+
+    <!-- كارت 2 -->
+   <div class="product-card">
+    <div class="card-header">
+        <img src="/image/07b1491f22c9ef3b842696d49f889a4fe5263c15.png" class="product-img">
+        <div class="title-info">
+            <h3 class="product-title">حقيبة ظهر TravelPro</h3>
+            <p class="category">اكسسوارات</p>
+        </div>
+    </div>
+
+    <div class="price">12.500 ر.س</div>
+
+    <p class="desc">
+        حقيبة ظهر متينة مقاومة للماء مناسبة للسفر والعمل والجامعة.
+    </p>
+
+    <div class="stock-row">
+        <span class="stock"><b>الكمية:</b> 80</span>
+        <span class="remaining"><b>المنفذ:</b> 25</span>
+    </div>
+
+    <div class="actions">
+        <button class="delete-btn"><i class="fa-solid fa-trash"></i> حذف</button>
+        <button class="edit-btn"><i class="fa-solid fa-pen"></i> تعديل</button>
+    </div>
+</div>
+
+
+
+    <!-- كارت 3 -->
+  <div class="product-card">
+    <div class="card-header">
+        <img src="/image/3733f23f0add59ecf6534fdac0c3c7db2424622e.png" class="product-img">
+        <div class="title-info">
+            <h3 class="product-title">زيوت عطرية Relax Blend</h3>
+            <p class="category">العناية الذاتية</p>
+        </div>
+    </div>
+
+    <div class="price">3.900 ر.س</div>
+
+    <p class="desc">
+        مجموعة زيوت عطرية طبيعية مثالية للاستخدام في الاسترخاء والعلاج العطري.
+    </p>
+
+    <div class="stock-row">
+        <span class="stock"><b>الكمية:</b> 90</span>
+        <span class="remaining"><b>المنفذ:</b> 18</span>
+    </div>
+
+    <div class="actions">
+        <button class="delete-btn"><i class="fa-solid fa-trash"></i> حذف</button>
+        <button class="edit-btn"><i class="fa-solid fa-pen"></i> تعديل</button>
+    </div>
+</div>
+
+
+    <!-- كارت 4 -->
+   <div class="product-card">
+    <div class="card-header">
+        <img src="/image/b3f33788c6d95f9f115cafff5eabbdf590c6111c.png" class="product-img">
+        <div class="title-info">
+            <h3 class="product-title">قميص CottonFlex الأبيض</h3>
+            <p class="category">الملابس</p>
+        </div>
+    </div>
+
+    <div class="price">6.800 ر.س</div>
+
+    <p class="desc">
+        قميص قطني فاخر خامة ناعمة ومريحة يناسب الاستخدام اليومي.
+    </p>
+
+    <div class="stock-row">
+        <span class="stock"><b>الكمية:</b> 120</span>
+        <span class="remaining"><b>المنفذ:</b> 35</span>
+    </div>
+
+    <div class="actions">
+        <button class="delete-btn"><i class="fa-solid fa-trash"></i> حذف</button>
+        <button class="edit-btn"><i class="fa-solid fa-pen"></i> تعديل</button>
+    </div>
+</div>
+
+
+
+    <!-- كارت 5 -->
+  <div class="product-card">
+    <div class="card-header">
+        <img src="/image/4fd286d55a26d897f06bd56a19fd98eb83088693.png" class="product-img">
+        <div class="title-info">
+            <h3 class="product-title">ساعة Classic Steel</h3>
+            <p class="category">اكسسوارات</p>
+        </div>
+    </div>
+
+    <div class="price">27.000 ر.س</div>
+
+    <p class="desc">
+        ساعة فاخرة بتصميم معدني عصري مقاومة للماء.
+    </p>
+
+    <div class="stock-row">
+        <span class="stock"><b>الكمية:</b> 50</span>
+        <span class="remaining"><b>المنفذ:</b> 10</span>
+    </div>
+
+    <div class="actions">
+        <button class="delete-btn"><i class="fa-solid fa-trash"></i> حذف</button>
+        <button class="edit-btn"><i class="fa-solid fa-pen"></i> تعديل</button>
+    </div>
+</div>
+
+
+
+    <!-- كارت 6 -->
+ <div class="product-card">
+    <div class="card-header">
+        <img src="/image/cee9cfdbfbf8c4943e6aaff88841aa0a03136a51.png" class="product-img">
+        <div class="title-info">
+            <h3 class="product-title">كوب حراري ThermoGo</h3>
+            <p class="category">أدوات مطبخ</p>
+        </div>
+    </div>
+
+    <div class="price">5.500 ر.س</div>
+
+    <p class="desc">
+        كوب حراري يحافظ على الحرارة والبرودة لفترة طويلة مناسب للسفر.
+    </p>
+
+    <div class="stock-row">
+        <span class="stock"><b>الكمية:</b> 140</span>
+        <span class="remaining"><b>المنفذ:</b> 20</span>
+    </div>
+
+    <div class="actions">
+        <button class="delete-btn"><i class="fa-solid fa-trash"></i> حذف</button>
+        <button class="edit-btn"><i class="fa-solid fa-pen"></i> تعديل</button>
+    </div>
+</div>
+
+
+    <!-- كارت 7 -->
+  <div class="product-card">
+    <div class="card-header">
+        <img src="/image/b1b501625973c772d53fc5e2d92530f94e9a58dd.png" class="product-img">
+        <div class="title-info">
+            <h3 class="product-title">لوحة مفاتيح ميكانيكية Xe</h3>
+            <p class="category">الكترونيات</p>
+        </div>
+    </div>
+
+    <div class="price">22.900 ر.س</div>
+
+    <p class="desc">
+        لوحة مفاتيح ميكانيكية RGB عالية الجودة مخصصة للاعبين والبرمجة.
+    </p>
+
+    <div class="stock-row">
+        <span class="stock"><b>الكمية:</b> 60</span>
+        <span class="remaining"><b>المنفذ:</b> 12</span>
+    </div>
+
+    <div class="actions">
+        <button class="delete-btn"><i class="fa-solid fa-trash"></i> حذف</button>
+        <button class="edit-btn"><i class="fa-solid fa-pen"></i> تعديل</button>
+    </div>
+</div>
+
+
+    <!-- كارت 8 -->
+ <div class="product-card">
+    <div class="card-header">
+        <img src="/image/d657d1eef866e04615e429985f6768d96ef2fd14.png" class="product-img">
+        <div class="title-info">
+            <h3 class="product-title">معقم FreshCare</h3>
+            <p class="category">العناية الصحية</p>
+        </div>
+    </div>
+
+    <div class="price">1.200 ر.س</div>
+
+    <p class="desc">
+        معقم فعال بنسبة 99.99% لطيف على الجلد وصديق للبيئة.
+    </p>
+
+    <div class="stock-row">
+        <span class="stock"><b>الكمية:</b> 40</span>
+        <span class="remaining"><b>المنفذ:</b> 10</span>
+    </div>
+
+    <div class="actions">
+        <button class="delete-btn"><i class="fa-solid fa-trash"></i> حذف</button>
+        <button class="edit-btn"><i class="fa-solid fa-pen"></i> تعديل</button>
+    </div>
+</div>
+
+
+
+    <!-- كارت 9 -->
+ <div class="product-card">
+    <div class="card-header">
+        <img src="/image/1a6c5820934dfedf8d8e85be7a7d6ede8851fb39.png" class="product-img" alt="كريم ترطيب AloeSkin">
+        <div class="title-info">
+            <h3 class="product-title">كريم ترطيب AloeSkin</h3>
+            <p class="category">العناية بالبشرة</p>
+        </div>
+    </div>
+
+    <div class="price">4.200 ر.س</div>
+
+    <p class="desc">
+        كريم مرطب غني بالألوفيرا يمنح ترطيباً عميقاً وسريعاً.
+    </p>
+
+    <div class="stock-row">
+        <span class="stock"><b>الكمية:</b> 200</span>
+        <span class="remaining"><b>المنفذ:</b> 70</span>
+    </div>
+
+    <div class="actions">
+        <button class="delete-btn"><i class="fa-solid fa-trash"></i> حذف</button>
+        <button class="edit-btn"><i class="fa-solid fa-pen"></i> تعديل</button>
+    </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+<!-- ====== PAGINATION ====== -->
+<div class="pagination-wrapper">
+
+    <!-- على اليمين -->
+    <div class="pagination-info">
+        1 من 13
+    </div>
+
+    <!-- على الشمال -->
+    <div class="pagination">
+        <button class="page-btn prev">‹</button>
+        <button class="page-btn active">1</button>
+        <button class="page-btn">2</button>
+        <button class="page-btn">3</button>
+        <button class="page-btn next">›</button>
+    </div>
+
+</div>
+
+</div>
+</main>
+
+
+
+<script src="/assests/js/home.js"></script>
+
+<script src="/assests/js/drop.js"></script>
+
+
+</body>
+</html>

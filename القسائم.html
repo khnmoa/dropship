@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>الطلبات</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="/assests/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+
+</head>
+
+<body>
+
+<div class="topbar">
+    <img src="/image/f9f831a3dca6f5fbcb89a69383cd9de01ac1e52b (1).png" class="logo" >
+
+    <div class="center-section">
+        <input type="text" placeholder="ابحث..." class="search-box">
+    </div>
+
+    <div class="icons">
+       <label for="showNotifications" class="icon"><i class="fa-regular fa-bell"></i></label>
+
+<input type="checkbox" id="showNotifications" hidden>
+
+<div class="notifications-box">
+    <h3>الإشعارات</h3>
+
+    <div class="item">تم شحن الرصيد– منذ يومين</div>
+    <div class="item">تم شحن الرصيد– منذ ٣ أيام</div>
+    <div class="item">تم شحن الرصيد– منذ ٣ أيام</div>
+    <div class="item">تم شحن الرصيد– منذ ٣ أيام</div>
+
+    <a class="more">عرض الكل</a>
+</div>
+
+        <i class="icon">
+              <a href="متجر الثيمات.html" class="iconss ">
+        <i class="fa-solid fa-gamepad"></i>
+    </a>
+        </i>
+        <i class="icon">  <a href="app.html" class="iconss ac">
+        <i class="fa-solid fa-border-all"></i>
+    </a></i>
+    </a></i>
+      <i class="icon">  <i class="fa-regular fa-moon"></i></i>
+        <i class="icon dark-toggle"></i>
+    </div>
+    <div class="store-wrapper">
+  <div class="store-select" id="storeBtn">
+    <img src="/image/121df8e4ff69af84b6cdf0af74303de3d79c0e0c.jpg">
+    <span class="flo">متجر زهور</span>
+    <span class="arrow">▼</span>
+</div>
+
+
+ <div id="dropdownMenu" class="dropdown-menu">
+    <div class="profile-section">
+        <img src="/image/121df8e4ff69af84b6cdf0af74303de3d79c0e0c.jpg" class="profile-img" />
+        <div class="profile-info">
+            <h3>متجر زهور</h3>
+            <p>الباقة المجانية</p>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button class="visit-btn">زيارة المتجر</button>
+        <button class="settings-btn">الإعدادات ⚙️</button>
+    </div>
+
+    <ul class="menu-list">
+        <li>
+        <a href="باقه المتجر.html"> <i class="fa-solid fa-gem"></i>باقه المنتجات  </li>
+            </a>   <li>
+    <a href="المحفظه.html" class="menu-link">
+        <i class="fa-solid fa-wallet"></i> المحفظة والفواتير
+    </a>
+</li>
+        <li class="logout"><i class="fa-solid fa-right-from-bracket"></i> تسجيل الخروج</li>
+    </ul>
+</div>
+</div>
+</div>
+ <input type="checkbox" id="menuToggle" hidden>
+<label for="menuToggle" class="menu-btn">☰</label>
+
+
+<aside class="sidebar" id="sidebar">
+    <ul>
+
+        <li class="section-title">عام</li>
+
+        <li class="active">
+            <a href="home.html">
+                <span class="icon"><i class="fa-solid fa-house"></i></span> الرئيسية
+            </a>
+        </li>
+
+        <li class="has-submenu ">
+    <div class="menu-item">
+        <a href="#">
+            <span class="icon"><i class="fa-solid fa-house"></i></span> الطلبات
+        </a>
+        <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+    </div>
+
+    <!-- القائمة اللي هتظهر -->
+    <ul class="submenu">
+        <li><a href="app.html">الطلبات</a></li>
+        <li class="active"><a href="القسائم.html">القسائم</a></li>
+    </ul>
+</li>
+
+
+       <li class="has-submenu">
+    <div class="menu-item">
+      
+            <span class="icon"><i class="fa-solid fa-shop"></i></span> المنتجات
+       
+        <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+    </div>
+
+    <!-- القائمة اللي هتظهر -->
+    <ul class="submenu">
+        <li><a href="المنتجات.html">المنتجات</a></li>
+        <li><a href=" القسائم.html">الأقسام</a></li>
+    </ul>
+</li>
+
+        <li>
+            <a href="العملاء.html">
+                <span class="icon"><i class="fa-solid fa-user-group"></i></span> العملاء
+            </a>
+        </li>
+
+        <li>
+            <a href="">
+                <span class="icon"><i class="fa-solid fa-chart-simple"></i></span> التقارير
+            </a>
+        </li>
+
+        <li>
+            <a href="التقيمات.html">
+                <span class="icon"><i class="fa-regular fa-star"></i></span> التقييمات
+            </a>
+        </li>
+
+        <li>
+            <a href="الصفحه التعريفيه.html">
+                <span class="icon"><i class="fa-solid fa-book-open"></i></span> الصفحات التعريفية
+            </a>
+        </li>
+
+        <li class="section-title">أدوات مساعدة</li>
+
+        <li>
+            <a href="خدمات التاجر.html">
+                <span class="icon">🧩</span> خدمات التاجر
+            </a>
+        </li>
+
+        <li>
+            <a href="تفعيل الشحن.html">
+                <span class="icon"><i class="fa-solid fa-ship"></i></span> تفعيل الشحن
+            </a>
+        </li>
+
+        <li>
+            <a href="خدمات الذكاء الصناعي.html">
+                <span class="icon">🤖</span> خدمات الذكاء الاصطناعي
+            </a>
+        </li>
+
+        <li class="section-title">الموردين</li>
+
+        <li>
+            <a href="الموردين.html">
+                <span class="icon">📦</span> المستودعات السعودية
+            </a>
+        </li>
+
+        <li>
+            <a href="المنتجات الرقميه2.html">
+                <span class="icon"><i class="fa-solid fa-computer"></i></span> المنتجات الرقمية
+            </a>
+        </li>
+
+    </ul>
+</aside>
+
+
+<!-- =============== MAIN CONTENT =============== -->
+<main class="content">
+
+    <div class="title-wrapper">
+        <h2 class="title">الاقسام </h2>
+     <button class="new-order-btn" id="openCategoryModal">+ قسم جديد</button>
+
+    </div>
+<div class="bg">
+    <!-- Filters -->
+ <div class="bg">
+
+    <div class="filter-bar">
+        <div class="left-controls">
+            <button class="btn"><i class="fa-solid fa-arrow-up-from-bracket"></i> تصدير</button>
+        </div>
+
+        <div class="right-search">
+            <div class="search-box">
+            
+                <input type="text" placeholder="ابحث باسم القسم...">
+            </div>
+        </div>
+    </div>
+
+    <!-- الجدول -->
+    <div class="table-box">
+        <table>
+            <thead>
+                <tr>
+                    <th>إجراء</th>
+                    <th>الحالة</th>
+                    <th>الرابط</th>
+                    
+                    <td class="name-cell">
+    <label class="name-label">
+      
+        <span>الاسم </span> 
+         <input type="checkbox" class="mr">
+    </label>
+</td>
+
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <!-- ROW 1 -->
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-trash"></i>
+                        <i class="fa-solid fa-pen"></i>
+                        <i class="fa-solid fa-eye"></i>
+                    </td>
+
+                    <td>
+                        <label class="switch">
+                            <input type="checkbox" checked>
+                            <span class="slider"></span>
+                        </label>
+                    </td>
+
+                    <td><a href="#">default</a></td>
+
+                    
+                    <td class="name-cell">
+    <label class="name-label">
+      
+        <span>كفر جوال</span> 
+         <input type="checkbox" class="mr">
+    </label>
+</td>
+
+                </tr>
+
+                <!-- ROW 2 -->
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-trash"></i>
+                        <i class="fa-solid fa-pen"></i>
+                        <i class="fa-solid fa-eye"></i>
+                    </td>
+
+                    <td>
+                        <label class="switch">
+                            <input type="checkbox" checked>
+                            <span class="slider"></span>
+                        </label>
+                    </td>
+
+                    <td><a href="#">default</a></td>
+
+                    <td class="name-cell">
+    <label class="name-label">
+      
+        <span>الورد الصناعي</span> 
+         <input type="checkbox" class="mr">
+    </label>
+</td>
+
+                </tr>
+
+                <!-- ROW 3 -->
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-trash"></i>
+                        <i class="fa-solid fa-pen"></i>
+                        <i class="fa-solid fa-eye"></i>
+                    </td>
+
+                    <td>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </td>
+
+                    <td><a href="#">default</a></td>
+
+                   
+                    <td class="name-cell">
+    <label class="name-label">
+      
+        <span>ديكورات الاثاث </span> 
+         <input type="checkbox" class="mr">
+    </label>
+</td>
+
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</div>
+
+<div class="modal-overlays" id="categoryModal">
+    <div class="modal-boxs">
+
+        <!-- زر إغلاق -->
+        <span class="modal-close" id="closeCategoryModal">&times;</span>
+
+        <h2>قسم جديد</h2>
+        <p class="modal-subtitle">تحكم في تصنيفات متجرك بإضافة صورها أو وصفها.</p>
+
+        <div class="modal-contents">
+
+            <label>اسم القسم</label>
+            <input type="text" placeholder="أعطني اسم القسم">
+
+            <label>رابط القسم</label>
+            <input type="text" placeholder="life_style">
+
+            <label>الوصف</label>
+            <textarea placeholder="اكتب هنا..."></textarea>
+
+            <label>صورة القسم</label>
+
+            <div class="upload-box">
+                <div class="upload-icon"></div>
+                <p>اسحب الصورة هنا</p>
+                <small>الصيغ المدعومة: jpeg, png. والحد الأقصى لحجم الملف: 25 ميغابايت</small>
+
+                <button class="upload-btn">أو تصفح من جهازك</button>
+            </div>
+
+            <div class="modal-buttons">
+                <button class="cancel-btn" id="cancelModal">إلغاء</button>
+                <button class="create-btn">إنشاء</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</main>
+<script src="/assests/js/القسائم.js">
+
+</script>
+<script src="/assests/js/home.js"></script>
+<script src="/assests/js/drop.js"></script>
+
+</body>
+</html>

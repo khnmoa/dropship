@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>الإعدادات - المعلومات الشخصية</title>
+    <link rel="stylesheet" href="/assests/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+
+<body>
+
+
+<div class="package-popup" id="packagePopup">
+  <div class="package-box">
+
+    <!-- زر الإغلاق -->
+    <span class="close-popup" onclick="closePackagePopup()"><i class="fa-regular fa-circle-xmark"></i></span>
+
+    <div class="popup-content">
+
+      <!-- يمين: الباقة -->
+      <div class="package-right">
+        <h3>باقة المتجر</h3>
+
+        <div class="current-plan">
+          <p>الباقة الحالية</p>
+          <h2>0 ﷼/   <small class="ss">10% عند الدفع</small> </h2>
+          <p > الباقة المجانية قم بترقيتها لتتمتع بمزايات أكثر</p>
+
+
+
+        <button class="btn-upgrade">  <a href="باقه المتجر الخطط.html" class="btn-upgrade">
+    ترقيه الباقه <i class="fa-solid fa-arrow-left"></i>
+</a> </i></button>
+        <button class="btn-renew"> تجديدالباقة <i class="fa-solid fa-arrow-rotate-left"></i>     </button>
+        <button class="btn-cancel">إلغاء الباقة</button>
+      </div></div>
+
+      <!-- يسار: طرق الدفع -->
+      <div class="payment-left">
+
+        <h4>طريقة الدفع</h4>
+
+        <div class="pay-item">
+          <input type="checkbox" name="pay">
+          <div>
+            <p class="title"> <i class="fa-regular fa-credit-card"></i> بطاقة تنتهي ب 8980</p>
+            <p class="small">تاريخ الانتهاء 25/11</p>
+          </div>
+          <button class="manage">إدارة</button>
+        </div>
+
+        <div class="pay-item">
+          <input type="checkbox" name="pay" checked>
+          <div>
+            <p class="title"> <i class="fa-solid fa-wallet"></i> محفظه المتجر </p>
+            <p class="small">يرجى التأكد من وجود رصيد كافي في حسايك.</p>
+          </div>
+          <button class="manage">إدارة</button>
+        </div>
+
+        <h5>فواتير الدفع</h5>
+        <div class="invoice-row">
+       <p class="invoice-title">
+  <span>الفاتوره#8362</span>
+  <i class="fa-regular fa-file"></i>
+</p>
+
+          <p class="small">24/10/2025</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="topbar">
+    <img src="/image/f9f831a3dca6f5fbcb89a69383cd9de01ac1e52b (1).png" class="logo" >
+
+    <div class="center-section">
+        <input type="text" placeholder="ابحث..." class="search-box">
+    </div>
+
+    <div class="icons">
+       <label for="showNotifications" class="icon"><i class="fa-regular fa-bell"></i></label>
+
+<input type="checkbox" id="showNotifications" hidden>
+
+<div class="notifications-box">
+    <h3>الإشعارات</h3>
+
+    <div class="item">تم شحن الرصيد– منذ يومين</div>
+    <div class="item">تم شحن الرصيد– منذ ٣ أيام</div>
+    <div class="item">تم شحن الرصيد– منذ ٣ أيام</div>
+    <div class="item">تم شحن الرصيد– منذ ٣ أيام</div>
+
+    <a class="more">عرض الكل</a>
+</div>
+
+        <i class="icon">
+              <a href="متجر الثيمات.html" class="iconss ">
+        <i class="fa-solid fa-gamepad"></i>
+    </a>
+        </i>
+        <i class="icon">  <a href="app.html" class="iconss ac">
+        <i class="fa-solid fa-border-all"></i>
+    </a></i>
+    </a></i>
+      <i class="icon">  <i class="fa-regular fa-moon"></i></i>
+        <i class="icon dark-toggle"></i>
+    </div>
+    <div class="store-wrapper">
+  <div class="store-select" id="storeBtn">
+    <img src="/image/121df8e4ff69af84b6cdf0af74303de3d79c0e0c.jpg">
+    <span class="flo">متجر زهور</span>
+    <span class="arrow">▼</span>
+</div>
+
+
+ <div id="dropdownMenu" class="dropdown-menu">
+    <div class="profile-section">
+        <img src="/image/121df8e4ff69af84b6cdf0af74303de3d79c0e0c.jpg" class="profile-img" />
+        <div class="profile-info">
+            <h3>متجر زهور</h3>
+            <p>الباقة المجانية</p>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button class="visit-btn">زيارة المتجر</button>
+        <button class="settings-btn">الإعدادات ⚙️</button>
+    </div>
+
+    <ul class="menu-list">
+        <li>
+        <a href="باقه المتجر.html"> <i class="fa-solid fa-gem"></i>باقه المنتجات  </li>
+            </a>   <li>
+    <a href="المحفظه.html" class="menu-link">
+        <i class="fa-solid fa-wallet"></i> المحفظة والفواتير
+    </a>
+</li>
+        <li class="logout"><i class="fa-solid fa-right-from-bracket"></i> تسجيل الخروج</li>
+    </ul>
+</div>
+</div>
+</div>
+
+ <input type="checkbox" id="menuToggle" hidden>
+<label for="menuToggle" class="menu-btn">☰</label>
+
+
+<aside class="sidebar" id="sidebar">
+    <ul>
+
+        <li class="section-title">عام</li>
+
+        <li >
+            <a href="home.html">
+                <span class="icon"><i class="fa-solid fa-house"></i></span> الرئيسية
+            </a>
+        </li>
+
+        <li class="has-submenu ">
+    <div class="menu-item">
+        <a href="#">
+            <span class="icon"><i class="fa-solid fa-house"></i></span> الطلبات
+        </a>
+        <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+    </div>
+
+    <!-- القائمة اللي هتظهر -->
+    <ul class="submenu">
+        <li><a href="app.html">الطلبات</a></li>
+        <li><a href="القسائم.html">القسائم</a></li>
+    </ul>
+</li>
+
+
+       <li class="has-submenu">
+    <div class="menu-item">
+      
+            <span class="icon"><i class="fa-solid fa-shop"></i></span> المنتجات
+       
+        <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+    </div>
+
+    <!-- القائمة اللي هتظهر -->
+    <ul class="submenu">
+        <li><a href="المنتجات.html">المنتجات</a></li>
+        <li><a href=" القسائم.html">الأقسام</a></li>
+    </ul>
+</li>
+
+        <li>
+            <a href="العملاء.html">
+                <span class="icon"><i class="fa-solid fa-user-group"></i></span> العملاء
+            </a>
+        </li>
+
+        <li>
+            <a href="">
+                <span class="icon"><i class="fa-solid fa-chart-simple"></i></span> التقارير
+            </a>
+        </li>
+
+        <li>
+            <a href="التقيمات.html">
+                <span class="icon"><i class="fa-regular fa-star"></i></span> التقييمات
+            </a>
+        </li>
+
+        <li>
+            <a href="الصفحه التعريفيه.html">
+                <span class="icon"><i class="fa-solid fa-book-open"></i></span> الصفحات التعريفية
+            </a>
+        </li>
+
+        <li class="section-title">أدوات مساعدة</li>
+
+        <li>
+            <a href="خدمات التاجر.html">
+                <span class="icon">🧩</span> خدمات التاجر
+            </a>
+        </li>
+
+        <li>
+            <a href="تفعيل الشحن.html">
+                <span class="icon"><i class="fa-solid fa-ship"></i></span> تفعيل الشحن
+            </a>
+        </li>
+
+        <li  class="active">
+            <a href="خدمات الذكاء الصناعي.html">
+                <span class="icon">🤖</span> خدمات الذكاء الاصطناعي
+            </a>
+        </li>
+
+        <li class="section-title">الموردين</li>
+
+        <li>
+            <a href="الموردين.html">
+                <span class="icon">📦</span> المستودعات السعودية
+            </a>
+        </li>
+
+        <li>
+            <a href="المنتجات الرقميه2.html">
+                <span class="icon"><i class="fa-solid fa-computer"></i></span> المنتجات الرقمية
+            </a>
+        </li>
+
+    </ul>
+</aside>
+
+
+
+
+
+    <!-- Main Page -->
+    <main class="content">
+  <div class="title-wrapper">
+    <h2 class="title">المحفظه والفواتير<p class="sm">تابع فواتير متجرك</p></h2>
+    <br>
+
+           <button class="statement-btn">📑 كشف الحساب</button>
+
+
+
+    </div>
+
+
+      <section class="panel">
+        <div class="top-row">
+          <div class="wallet-container">
+
+  <!-- الفورم على اليسار -->
+   <div class="card-box">
+
+  <div class="black-card">
+    <i class="fa-solid fa-circle-info"></i>
+
+    <div class="circle">
+        <img src="/image/croped.png" alt="">
+    </div>
+
+    <div class="balance-label">الرصيد</div>
+    <div class="balance">500 ﷼</div>
+    <button class="charge-btn">+ شحن رصيد</button>
+</div>
+
+  </div>
+  </div>
+  <div class="withdraw-box">
+
+    <div class="withdraw-card">
+      <h2>سحب الأرباح</h2>
+
+      <div class="tabs">
+        <div class="tab active">حساب بنكي</div>
+        <div class="tab">STC Pay</div>
+        <div class="tab">Apple pay</div>
+
+      </div>
+
+      <label>Card Number</label>
+      <input type="text" placeholder="009364682119">
+
+      <div class="two-inputs">
+        <div>
+          <label>Expiration date</label>
+          <input type="text" placeholder="MM/YY">
+        </div>
+        <div>
+          <label>CVC</label>
+          <input type="password" value="****">
+        </div>
+      </div>
+
+      <div class="checkbox-row">
+        <input type="checkbox">
+        <span>حفظ طريقة السحب هذه</span>
+      </div>
+
+      <label>المبلغ</label>
+      <input type="text" placeholder="﷼">
+
+      <button class="confirm-btn">تأكيد</button>
+    </div>
+  </div>
+
+  <!-- الكارت الأسود على اليمين -->
+
+
+</div>
+
+       
+
+        <!-- فاصل -->
+        <hr style="border:none;height:12px;background:transparent;margin:16px 0" />
+
+        <!-- قائمة الفواتير -->
+        <div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+            <div style="font-weight:700">الفواتير</div>
+          <div style="font-size:13px">  <i class="fa-solid fa-arrow-down-wide-short"></i>التاريخ الأحدث  </div>
+
+          </div>
+
+          <div class="invoices" id="invoices">
+          
+          </div>
+        </div>
+      </section>
+
+
+</main>
+
+</div>
+ <script src="/assests/js/home.js"></script>
+<script src="/assests/js/drop.js"></script>
+
+</body>
+</html>

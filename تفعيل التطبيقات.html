@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="stylesheet" href="/assests/style.css">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <title>تفعيل التطبيقات </title>
+ 
+</head>
+<body>
+<div class="topbar">
+    <img src="/image/f9f831a3dca6f5fbcb89a69383cd9de01ac1e52b (1).png" class="logo" >
+
+    <div class="center-section">
+        <input type="text" placeholder="ابحث..." class="search-box">
+    </div>
+
+    <div class="icons">
+       <label for="showNotifications" class="icon"><i class="fa-regular fa-bell"></i></label>
+
+<input type="checkbox" id="showNotifications" hidden>
+
+<div class="notifications-box">
+    <h3>الإشعارات</h3>
+
+    <div class="item">تم شحن الرصيد– منذ يومين</div>
+    <div class="item">تم شحن الرصيد– منذ ٣ أيام</div>
+    <div class="item">تم شحن الرصيد– منذ ٣ أيام</div>
+    <div class="item">تم شحن الرصيد– منذ ٣ أيام</div>
+
+    <a class="more">عرض الكل</a>
+</div>
+
+        <i class="icon">
+              <a href="متجر الثيمات.html" class="iconss ">
+        <i class="fa-solid fa-gamepad"></i>
+    </a>
+        </i>
+        <i class="icon">  <a href="app.html" class="iconss ac">
+        <i class="fa-solid fa-border-all"></i>
+    </a></i>
+    </a></i>
+      <i class="icon">  <i class="fa-regular fa-moon"></i></i>
+        <i class="icon dark-toggle"></i>
+    </div>
+    <div class="store-wrapper">
+  <div class="store-select" id="storeBtn">
+    <img src="/image/121df8e4ff69af84b6cdf0af74303de3d79c0e0c.jpg">
+    <span class="flo">متجر زهور</span>
+    <span class="arrow">▼</span>
+</div>
+
+
+ <div id="dropdownMenu" class="dropdown-menu">
+    <div class="profile-section">
+        <img src="/image/121df8e4ff69af84b6cdf0af74303de3d79c0e0c.jpg" class="profile-img" />
+        <div class="profile-info">
+            <h3>متجر زهور</h3>
+            <p>الباقة المجانية</p>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button class="visit-btn">زيارة المتجر</button>
+        <button class="settings-btn">الإعدادات ⚙️</button>
+    </div>
+
+    <ul class="menu-list">
+        <li>
+        <a href="باقه المتجر.html"> <i class="fa-solid fa-gem"></i>باقه المنتجات  </li>
+            </a>   <li>
+    <a href="المحفظه.html" class="menu-link">
+        <i class="fa-solid fa-wallet"></i> المحفظة والفواتير
+    </a>
+</li>
+        <li class="logout"><i class="fa-solid fa-right-from-bracket"></i> تسجيل الخروج</li>
+    </ul>
+</div>
+</div>
+</div>
+
+<div class="app">
+ <input type="checkbox" id="menuToggle" hidden>
+<label for="menuToggle" class="menu-btn">☰</label>
+
+
+<aside class="sidebar" id="sidebar">
+    <ul>
+
+        <li class="section-title">عام</li>
+
+        <li class="active">
+            <a href="home.html">
+                <span class="icon"><i class="fa-solid fa-house"></i></span> الرئيسية
+            </a>
+        </li>
+
+        <li class="has-submenu ">
+    <div class="menu-item">
+        <a href="#">
+            <span class="icon"><i class="fa-solid fa-house"></i></span> الطلبات
+        </a>
+        <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+    </div>
+
+    <!-- القائمة اللي هتظهر -->
+    <ul class="submenu">
+        <li><a href="app.html">الطلبات</a></li>
+        <li><a href="القسائم.html">القسائم</a></li>
+    </ul>
+</li>
+
+
+       <li class="has-submenu">
+    <div class="menu-item">
+      
+            <span class="icon"><i class="fa-solid fa-shop"></i></span> المنتجات
+       
+        <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+    </div>
+
+    <!-- القائمة اللي هتظهر -->
+    <ul class="submenu">
+        <li><a href="المنتجات.html">المنتجات</a></li>
+        <li><a href=" القسائم.html">الأقسام</a></li>
+    </ul>
+</li>
+
+        <li>
+            <a href="العملاء.html">
+                <span class="icon"><i class="fa-solid fa-user-group"></i></span> العملاء
+            </a>
+        </li>
+
+        <li>
+            <a href="">
+                <span class="icon"><i class="fa-solid fa-chart-simple"></i></span> التقارير
+            </a>
+        </li>
+
+        <li>
+            <a href="التقيمات.html">
+                <span class="icon"><i class="fa-regular fa-star"></i></span> التقييمات
+            </a>
+        </li>
+
+        <li>
+            <a href="الصفحه التعريفيه.html">
+                <span class="icon"><i class="fa-solid fa-book-open"></i></span> الصفحات التعريفية
+            </a>
+        </li>
+
+        <li class="section-title">أدوات مساعدة</li>
+
+        <li>
+            <a href="خدمات التاجر.html">
+                <span class="icon">🧩</span> خدمات التاجر
+            </a>
+        </li>
+
+        <li>
+            <a href="تفعيل الشحن.html">
+                <span class="icon"><i class="fa-solid fa-ship"></i></span> تفعيل الشحن
+            </a>
+        </li>
+
+        <li>
+            <a href="خدمات الذكاء الصناعي.html">
+                <span class="icon">🤖</span> خدمات الذكاء الاصطناعي
+            </a>
+        </li>
+
+        <li class="section-title">الموردين</li>
+
+        <li>
+            <a href="الموردين.html">
+                <span class="icon">📦</span> المستودعات السعودية
+            </a>
+        </li>
+
+        <li>
+            <a href="المنتجات الرقميه2.html">
+                <span class="icon"><i class="fa-solid fa-computer"></i></span> المنتجات الرقمية
+            </a>
+        </li>
+
+    </ul>
+</aside>
+
+<div class="tracking-card">
+<div class="activate-area">
+    <button class="activate-btn" id="activateBtn">تفعيل التطبيق</button>
+
+    <div class="after-activate" id="afterActivate" style="display: none;">
+       <button class="activate-btn settings-btn" id="openSettings">إعدادات التفعيل</button>
+
+        <button class="activate-btn cancel-btn">إلغاء التفعيل</button>
+    </div>
+
+
+    <div class="header-box">
+    <a href="/app.html"> <img src="/image/right arrow.png" alt=""></a> 
+    <img src="/image/6a20ad7dbe3500f0756a38a0520538cc5a8e56ac.png" alt="">
+    
+    <div class="text-content">
+      <div id="alertBox" class="alert"></div>
+
+        <h2 class="titlee">Tracking app</h2> <span class="status" id="statusText" style="display:none;">مفعل</span>
+        
+        <p class="titlee">عند تفعيل هذا التطبيق، سيتمكن عملاؤك من تتبع حالة طلباتهم.</p>
+    </div>
+</div></div>
+    <h3 class="steps-title">خطوات التفعيل:</h3>
+   <ol class="steps">
+    <li><span class="num">1</span> أولاً: قم بتمكين هذا التطبيق.</li>
+    <li><span class="num">2</span> اذهب إلى إعدادات المتجر > القائمة أو الترويسة > أضف رابط جديد.</li>
+    <li><span class="num">3</span> 
+        أضف الرابط على مثال نطاق متجرك هو: yourstore.shop.com  
+        لذلك بشكل تلقائي سيكون رابط صفحة التتبع هو shop.com/tracking
+    </li>
+</ol>
+    <div class="tips">
+        نصائح: لتجنب شكاوى، يجب على العملاء تتبع طلباتهم برقم الهاتف ومعرف الطلب
+    </div>
+
+    <p class="video-text">أو شاهد هذا الفيديو</p>
+
+    <div class="video-placeholder"></div>
+</div>
+
+
+<!-- نافذة إعدادات تتبع الطلبات -->
+<div id="trackingSettingsModal" class="modal-overlay">
+    <div class="modal-box">
+
+        <button class="close-modal">✖</button>
+
+        <h3 class="modal-title">إعدادات تتبع الطلبات</h3>
+        <p class="modal-sub">املأ التفاصيل أدناه لتتبع الطلبات.</p>
+
+        <div class="modal-grid">
+
+            <div>
+                <label>اسم الصفحة</label>
+                <input type="text" placeholder="اسم الصفحة">
+            </div>
+
+            <div>
+                <label>اسم حقل الهاتف</label>
+                <input type="text" placeholder="حقل الهاتف">
+            </div>
+
+            <div>
+                <label>اسم زر البحث</label>
+                <input type="text" placeholder="بحث">
+            </div>
+
+            <div>
+                <label>اسم معرف الطلب</label>
+                <input type="text" placeholder="معرف الطلب">
+            </div>
+
+            <div>
+                <label>تاريخ الطلب</label>
+                <input type="text" placeholder="التاريخ">
+            </div>
+
+            <div>
+                <label>حالة الطلب</label>
+                <input type="text" placeholder="الحالة">
+            </div>
+
+            <div>
+                <label>الطلبات غير موجودة</label>
+                <input type="text" placeholder="Error try again">
+            </div>
+
+            <div>
+                <label>رقم التتبع</label>
+                <input type="text" placeholder="tracking number">
+            </div>
+
+        </div>
+
+        <div class="buttons-row">
+            <button class="save-btn">حفظ التغييرات</button>
+            <button class="cancel-btn-modal">إلغاء</button>
+        </div>
+
+    </div>
+</div>
+
+
+
+</div>
+
+<script src="assests/js/تفعيل التطبيقات.js">
+
+</script>
+
+
+
+<script src="/assests/js/home.js"></script>
+<script src="/assests/js/drop.js"></script>
+
+</body>
+</html>
